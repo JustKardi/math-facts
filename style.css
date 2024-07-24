@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#numberOne,
+#operator,
+#numberTwo,
+#score,
+#timer,
+#answer,
+#reset,
+#finish,
+.instruction {
+    position: relative;
+}
+
+#numberOne,
+#operator,
+#numberTwo {
+    font-size: 3em;
+    margin: 0;
+}
+
+hr {
+    margin: 10px auto;
+}
+
+#answer {
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#reset,
+#finish {
+    width: 100px;
+    margin: 10px auto;
+}
+
+#timer {
+    font-size: 1.5em;
+    top: -20px;
+}
+
+.instruction {
+    top: 10px;
+    font-size: 1em;
+}
